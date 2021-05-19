@@ -1,0 +1,63 @@
+{"proj_name": "if_stt",
+ "mail_to": [
+   "jeffreylin-21375@email.esunbank.com.tw",
+   "kakushawn-21659@email.esunbank.com.tw",
+   "finalspaceman-19590@email.esunbank.com.tw"
+  ], 
+ "api": [
+  {
+    "prog":"api_service_stt_v100",
+    "from_s3": "false",
+    "model_name":[],
+    "model_auto_update":false, 
+    "uat_client_id": "z+QKW7vrZ+qAJGWA35zpHHOtu0gjzl9reP6LXH+UEQnl46y0xvuQChXGzf+mBEDP",
+    "prod_client_id": "z+QKW7vrZ+qAJGWA35zpHOne3MOdbaft6PW/ErQGrx6K3IYwJtmWMUOi1NUTAdID",
+    "action":"stt",
+    "thread_num":0,
+    "api_version":"v1.0.0",
+    "input_param":[
+      {
+        "name":"client_number",
+        "type":"str",
+        "required":"True",
+        "default":"None"
+      },
+      {
+        "name":"agent_id",
+        "type":"str",
+        "required":"True",
+        "default":"None"
+      },
+      {
+        "name":"agent_number",
+        "type":"str",
+        "required":"True",
+        "default":"None"
+      },
+      {
+        "name":"dial_in_time",
+        "type":"float",
+        "required":"True",
+        "default":0.0
+      },
+      {
+        "name":"hang_up_time",
+        "type":"float",
+        "required":"True",
+        "default":0.0
+      },
+      {
+        "name":"call_duration",
+        "type":"int",
+        "required":"True",
+        "default":0
+      }
+    ],
+    "bu_uat_ip":[],
+    "bu_prod_ip":[]
+  }
+],
+ "etl": [],
+ "model": [],
+ "batch": [],
+ "efk_copy": []}
